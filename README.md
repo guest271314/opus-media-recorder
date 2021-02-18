@@ -1,7 +1,9 @@
 # opus-media-recorder
 
-* [Try it!](https://kbumsik.io/opus-media-recorder/)
-* [JS Fiddle example](https://jsfiddle.net/kbumsik/v3wpnxao/)
+Test infinite Opus stream
+
+* [Try it!](https://guest271314.github.io/opus-media-recorder/index.html)
+* [plnkr](https://plnkr.co/edit/bK1BfoSgjFUDwkIV/)
 
 `opus-media-recorder` is a [MediaRecorder API](https://w3c.github.io/mediacapture-record/#mediarecorder-api) polyfill written in ES6 and WebAssembly. It aims for cross-browser Opus codec support with various audio formats such as Ogg and WebM. `opus-media-recorder` can be used as a polyfill, or it can replace the built-in MediaRecorder since `opus-media-recorder` supports more MIME types.
 
