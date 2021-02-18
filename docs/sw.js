@@ -1,6 +1,6 @@
 let rs;
 
-self.addEventListsner('message', (event) => {
+self.addEventListener('message', (event) => {
   console.log(event.data);
   rs = event.data;
 });
