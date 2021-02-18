@@ -35,7 +35,7 @@
         return `ServiceWorker's unregistered`;
       };
       const workerOptions = {
-        OggOpusEncoderWasmPath: `${location.href}OggOpusEncoder.wasm`,
+        OggOpusEncoderWasmPath: `${location.href.slice(0, location.href.lastIndexOf('/') + 1)}OggOpusEncoder.wasm`,
       };
       console.log(workerOptions);
       // https://github.com/kbumsik/opus-media-recorder
