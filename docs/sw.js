@@ -1,9 +1,9 @@
 let rs;
 
-self.onmessage = (e) => {
-  console.log(e.data);
-  rs = e.data;
-}
+self.addEventListsner('message', (event) => {
+  console.log(event.data);
+  rs = event.data;
+});
 
 self.addEventListener('install', (event) => {
   console.log(event);
